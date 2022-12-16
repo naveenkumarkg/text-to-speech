@@ -1,0 +1,41 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.btn_container{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./robo.gif');
+    background-repeat: no-repeat;
+   
+}
+
+.speech_btn{
+    width: 200px;
+    height: 75px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ff3482;
+    box-shadow: 0 10px 10px 5px ;
+    font-weight: 600;
+   
+}
+
+.speech_btn:hover{
+    filter: brightness(150%);
+}
+
+.speech_btn:active{
+    transform: translateY(10px);
+    box-shadow: none;
+}
